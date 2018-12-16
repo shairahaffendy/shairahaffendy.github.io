@@ -1,0 +1,226 @@
+html {
+
+}
+
+body {
+  margin: 0px;
+  font-family: 'Montserrat', sans-serif;
+  /* background-color: #89cff0; */
+  background-color: #cdcdcd;
+}
+
+.left {
+  margin-left: 5%;
+  width: 30%;
+  height: 100%;
+  float: left;
+  background-image: url("https://www.desktopbackground.org/download/o/2013/09/09/636324_coloroll-kids-pastel-polka-dots-wallpapers_736x981_h.jpg");
+  position: fixed;
+}
+
+.right {
+  margin-right: 5%;
+  width: 55%;
+  float: right;
+  background-image: url("https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/8vV2rpe/pastel-blue-background-1080p_x1kgy93b__F0000.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.border {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+              0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.home {
+  width: 100%;
+  height: 500px;
+  background-image: url("https://farm7.static.flickr.com/6032/6367776805_4db83f549b_b.jpg");
+  background-color: white;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0px;
+  padding: 150px 0px;
+}
+.home h1 {
+  font-size: 76px;
+}
+
+.photo {
+  padding-top: 10px;
+}
+
+.shairah {
+  height: 5cm;
+  width: 5cm;
+  border-radius: 2.5cm;
+  border: 3px solid black;
+  display: block;
+  margin:auto;
+}
+
+
+.tengahkan {
+  display: block;
+  margin: 0px;
+  text-align: center;
+}
+
+.link2 {
+  margin: 0px;
+}
+a:link, a:visited {
+  background-color: #005a91;
+  color: white;
+  /* padding: 5px; */
+  text-align: center;
+  text-decoration: none;
+  display: flow-root;
+  font-family: cursive;
+}
+
+
+a:hover, a:active {
+  background-color: #89cff0;
+}
+
+.section {
+  border-style: outset;
+  background-color: #d1d1d1;
+  padding: 25px;
+  margin: 10px;
+  border-radius: 10px;
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1 {
+  display: block;
+  text-align: center;
+  font-size: 20pt;
+  color: black;
+  padding: 18px 0 18px 0;
+  margin: 0 0 10px 0;
+}
+
+h1 span {
+    border-bottom: 2px solid gray;
+    padding: 10px;
+}
+
+table td{
+  border: 2px solid black;
+}
+.color {
+  background-color: #3fb6b2;
+}
+
+li {
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+progress {
+    width: 70%;
+    height: 20px;
+    color: #3fb6b2;
+    background: #efefef;
+}
+progress::-webkit-progress-bar {
+    background: #efefef;
+}
+progress::-webkit-progress-value {
+    background: #3fb6b2;
+}
+progress::-moz-progress-bar {
+    color: #3fb6b2;
+    background: #efefef;
+}
+
+img {
+  vertical-align: middle;
+}
+
+/* Position the image container (needed to position the left and right arrows) */
+.container {
+  position: relative;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Container for image text */
+.caption-container {
+  text-align: center;
+  background-color: #222;
+  padding: 2px 16px;
+  color: white;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Six columns side by side */
+.column {
+  float: left;
+  width: 16.66%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
